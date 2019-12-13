@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.item {
+  margin: 5px 0 10px;
+}
+
+.item img.avatar.image {
+  float: left;
+  margin-right: 10px;
+}
+
+.item .content p.header {
+  font-weight: bold;
+  margin-bottom: 0;
+}
