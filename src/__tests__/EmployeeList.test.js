@@ -52,6 +52,6 @@ describe('<EmployeeList />', () => {
 
     await describedComponent.setState({ employees: employees.data });
 
-    expect(describedComponent.find('li')).toHaveLength(5);
+    expect(describedComponent.find('div[role="listitem"]')).toHaveLength(5);
   });
 });

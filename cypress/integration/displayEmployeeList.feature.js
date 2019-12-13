@@ -3,7 +3,7 @@ describe('Display list of employees', () => {
     cy.visit('http://localhost:3001');
 
     cy.get('section[name="main"]').within(() => {
-      cy.get('li')
+      cy.get('div[role="listitem"]')
         .should('have.length', 5);
     });
   });
